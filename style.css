@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+
+
+}
+
+h1 {
+    margin: 30px;
+    text-align: center;
+    font-size: 36px;
+}
+
+.site {
+    width: 350px;
+    display: inline-block;
+    height: 400px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 0px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.site img {
+    width: 100px;
+    border-radius: 10px;
+}
+
+.site a {
+    text-decoration: none;
+}
+.site p{
+    text-align: start;
+}
+
+#todas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+}
+.site:hover {
+    transform: scalex(1.1);
+    background-color: rgba(128, 128, 128, 0.198);
+}
